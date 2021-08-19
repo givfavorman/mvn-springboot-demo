@@ -9,7 +9,7 @@ public class MainController {
 	
 	@RequestMapping("/")
 	public String main(Model model) {
-		return "/index1";
+		return "/index";
 	}
 	
 }
